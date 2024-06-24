@@ -3,7 +3,7 @@ import { FC } from "react";
 
 const Navbar: FC = () => {
 	return (
-		<nav className='px-6 py-2 flex items-center justify-between bg-transparent sticky w-full'>
+		<nav className='px-6 py-2 flex items-center justify-between bg-transparent fixed w-full top-0'>
 			<img
 				src='/logo-svg.svg'
 				alt='Logotipo Gildemar'
